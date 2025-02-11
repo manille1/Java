@@ -16,7 +16,6 @@ public class Exo3 {
     public static void main(String[] args) {
         Chien c = new Chien("Moustache");
 
-        
         System.out.println("Nom : " + c.name);
     }
 }
