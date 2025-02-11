@@ -1,4 +1,4 @@
-public class App {
+public class Exo1 {
     public class Book {
         private String title;
 
