@@ -6,6 +6,7 @@ public class Exo5 {
 
 class Voiture {
     private String marque; 
+    
     public Voiture(String marque) {  
         this.marque = marque;  
         System.out.println("Marque de la voiture: " + marque);  
