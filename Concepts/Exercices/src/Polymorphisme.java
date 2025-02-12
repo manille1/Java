@@ -14,10 +14,12 @@ public class Polymorphisme {
 
     }
 
-    abstract static class Employee {
+    static class Employee {
         String nom;
 
-        abstract void travailler();
+        void travailler(){
+            System.out.println("Je travaille dans l'école");
+        };
     }
 
     static class Enseignant extends Employee{
